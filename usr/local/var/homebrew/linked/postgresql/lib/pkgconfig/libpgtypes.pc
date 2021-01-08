@@ -1,9 +1,0 @@
-Name: libpgtypes
-Description: PostgreSQL libpgtypes library
-Url: https://www.postgresql.org/
-Version: 13.1
-Requires: 
-Requires.private: 
-Cflags: -I/usr/local/include
-Libs: -L/usr/local/lib -lpgtypes
-Libs.private: -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/readline/lib -lm
